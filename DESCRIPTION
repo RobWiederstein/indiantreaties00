@@ -1,13 +1,25 @@
 Package: indiantreaties00
 Title: indiantreaties00
 Version: 0.0.0.9000
-Authors@R: person('Rob', 'Wiederstein', email = 'khuon68@gmail.com', role = c('cre', 'aut'))
-Description: A textual analysis of treaties between the US and the Indigenous Peoples of North America.
+Authors@R: 
+    person("Rob", "Wiederstein", , "khuon68@gmail.com", role = c("cre", "aut"))
+Description: A textual analysis of treaties between the US and the
+    Indigenous Peoples of North America.
 License: MIT + file LICENSE
 Imports: 
     config (>= 0.3.1),
     golem (>= 0.3.4),
     shiny (>= 1.7.2)
+Suggests: 
+    knitr,
+    rmarkdown,
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
 Encoding: UTF-8
+Language: en-US
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.1
+VignetteBuilder: knitr
+URL: https://github.com/RobWiederstein/indiantreaties00
+BugReports: https://github.com/RobWiederstein/indiantreaties00/issues
